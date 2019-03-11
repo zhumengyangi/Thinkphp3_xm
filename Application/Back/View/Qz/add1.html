@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<a href="__CONTROLLER__/add">添加分类</a><br>
+	<a href="__CONTROLLER__/showlist">查看分类</a><br>
+	<a href="__CONTROLLER__/add1">查看规则</a><br><br>
+
+	<form action="__CONTROLLER__/add1" method="post">
+		<select name="fenlei">
+			<?php foreach($info as $v){ ?>
+				<option value="{$v.fenlei}">{$v.fenlei}</option>
+			<?php }?>
+		</select><br>
+		规则：<input type="text" name="guize"><br>
+		姓名：<input type="text" name="username"><br>
+		<input type="submit" value="添加">
+	</form>
+</body>
+</html>

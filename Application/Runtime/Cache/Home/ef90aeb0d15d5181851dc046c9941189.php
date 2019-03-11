@@ -1,0 +1,60 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    <input type="text"><button>搜索</button>
+    <button id="scxz">删除选中</button>
+    <a href="add">新增</a>
+      <table border="1px">
+      <tr>
+      <td><input type="checkbox" id="qx"></td>
+      <td>id</td>
+      <td>姓名</td>
+      <td>手机号</td>
+      <td>地址</td>
+      <td>分数</td> 
+      <td>操作</td>  
+      </tr>
+	 <?php foreach ($list as $k => $v) {?>
+	 <tr>    <td><input type="checkbox" class="qx1" id="<?php echo $v['id']?>"></td>
+            <td><?php echo $v['id']?></td>
+          	<td><?php echo $v['name']?> </td>
+           <td><?php echo $v['phone']?></td>
+           <td></td>
+          <td><?php echo $v['fs']?></td>
+          <td><a href="delete?id=<?php echo $v['id']?>">删除</a>
+            <a href="edit?id=<?php echo $v['id']?>">修改</a>
+            </td>
+          </tr>
+  <?php  } ?>
+  </table>
+       <?php echo ($show); ?>
+</body>
+<script src="\Application\Public\js\jq.js"></script>
+<script >
+     $("#qx").click(function(){
+       	var qx1=this.checked;
+       	$(".qx1").prop("checked",qx1);
+      })
+      //选中删除
+        // $("#scxz").click(function(){
+        //  	$(".qx1:checked").closest("tr").remove();
+        //  })
+      $("#scxz").click(function(){
+      	var xz='';
+      	$("input:checkbox").each(function(){
+      		if(this.checked==true){
+                   xz+=this.id+',';
+      		}
+             // header("location:/index.php?m=Home&c=Index&a=delete&id="+xz);
+      	})
+      	//alert(xz);
+          
+           window.location.href="/index.php?m=Home&c=Index&a=delete&id="+xz;
+      })
+
+</script>
+</html>

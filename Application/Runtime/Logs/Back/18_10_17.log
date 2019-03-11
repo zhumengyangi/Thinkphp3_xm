@@ -1,0 +1,659 @@
+[ 2018-10-17T08:22:55+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.047385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013407s ]
+
+[ 2018-10-17T11:18:18+08:00 ] 127.0.0.1 /index.php/back/three/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 0  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2018-10-17T11:20:08+08:00 ] 127.0.0.1 /index.php/back/three/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 0  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2018-10-17T11:20:13+08:00 ] 127.0.0.1 /index.php/Back/Goods/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+
+[ 2018-10-17T11:20:17+08:00 ] 127.0.0.1 /index.php/Back/Goods/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+
+[ 2018-10-17T11:22:05+08:00 ] 127.0.0.1 /index.php/back/three/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 0  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003855s ]
+
+[ 2018-10-17T11:22:08+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 11  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-10-17T11:22:14+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.1351s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 185  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\ThreeController.class.php 第 92 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004239s ]
+
+[ 2018-10-17T11:22:21+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 16  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2018-10-17T11:22:26+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 242  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\ThreeController.class.php 第 92 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003861s ]
+
+[ 2018-10-17T11:27:10+08:00 ] 127.0.0.1 /index.php/back/three/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 0  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003805s ]
+
+[ 2018-10-17T11:27:15+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 4  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003641s ]
+
+[ 2018-10-17T11:27:20+08:00 ] 127.0.0.1 /index.php/Back/Three/ajaxArea.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `shop0926_area` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `shop0926_area` WHERE `area_parent_id` = 93  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\ThreeController.class.php 第 90 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003883s ]
+
+[ 2018-10-17T11:51:40+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:51:59+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:00+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:01+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:52:17+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:41+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:42+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:42+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:42+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:43+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:43+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:53:43+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:55:23+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:55:28+08:00 ] 127.0.0.1 /index.php/back/Duo/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2018-10-17T11:57:07+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:57:08+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:57:15+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T11:57:32+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+
+[ 2018-10-17T16:44:02+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2018-10-17T16:44:10+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T16:45:34+08:00 ] 127.0.0.1 /index.php/back/Duo/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2018-10-17T16:45:36+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+ERR: Think\Controller:area方法不存在！
+
+[ 2018-10-17T16:46:28+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+ERR: Think\Controller:Duo方法不存在！
+
+[ 2018-10-17T16:49:37+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: Think\Controller:Duo方法不存在！
+
+[ 2018-10-17T16:49:48+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-10-17T16:50:51+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: city D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: city D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 28 行.
+ERR: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+
+[ 2018-10-17T16:54:47+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2018-10-17T16:55:08+08:00 ] 127.0.0.1 /index.php/back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: category D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 23 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: statuss D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 24 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 25 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `shop0926_duo` (`member_name`,`member_phone`,`classify`,`goods_name`,`goods_num`,`top_price`,`money_num`,`top_he`,`money_he`,`text`,`city`) VALUES ('','','分类1','名称1','1','1','1','1','1','',''),('','','分类12','名称12','2','2','2','2','2','','') [ RunTime:0.0009s ]
+
+[ 2018-10-17T16:55:09+08:00 ] 127.0.0.1 /index.php/Back/Duo/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003542s ]
+
+[ 2018-10-17T16:56:29+08:00 ] 127.0.0.1 /index.php/Back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.1225s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2018-10-17T16:56:38+08:00 ] 127.0.0.1 /index.php/Back/Duo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: category D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 23 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: statuss D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 24 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 25 行.
+SQL: SELECT * FROM `shop0926_duo` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: area_name D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 29 行.
+NOTIC: [8] Undefined index: area_name D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 29 行.
+NOTIC: [8] Undefined index: area_name D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\DuoController.class.php 第 29 行.
+SQL: INSERT INTO `shop0926_duo` (`member_name`,`member_phone`,`classify`,`goods_name`,`goods_num`,`top_price`,`money_num`,`top_he`,`money_he`,`text`,`city`) VALUES ('','','分类123','名称123','3','3','3','3','3','','') [ RunTime:0.0006s ]
+
+[ 2018-10-17T16:56:39+08:00 ] 127.0.0.1 /index.php/Back/Duo/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `shop0926_duo` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `shop0926_duo`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003782s ]
+

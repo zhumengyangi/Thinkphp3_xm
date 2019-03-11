@@ -1,0 +1,370 @@
+[ 2018-10-28T20:09:47+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054952s ]
+
+[ 2018-10-28T20:09:47+08:00 ] 127.0.0.1 /index.php/Back/Login/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2018-10-28T20:10:00+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `shop0926_admin` [ RunTime:0.0743s ]
+SQL: SELECT * FROM `shop0926_admin` WHERE `admin_name` = 'root' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-10-28T20:10:01+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `shop0926_admin` [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+
+[ 2018-10-28T20:10:04+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2018-10-28T20:10:09+08:00 ] 127.0.0.1 /index.php/Back/Login/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002542s ]
+
+[ 2018-10-28T20:10:14+08:00 ] 127.0.0.1 /index.php/Back/Login/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002468s ]
+
+[ 2018-10-28T20:10:16+08:00 ] 127.0.0.1 /index.php/Back/Login/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002460s ]
+
+[ 2018-10-28T20:10:21+08:00 ] 127.0.0.1 /index.php/back/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `shop0926_admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `shop0926_admin` WHERE `admin_name` = 'root' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-10-28T20:10:22+08:00 ] 127.0.0.1 /index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2018-10-28T20:10:22+08:00 ] 127.0.0.1 /index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2018-10-28T20:10:22+08:00 ] 127.0.0.1 /index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2018-10-28T20:10:23+08:00 ] 127.0.0.1 /index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: select * from shop0926_auth  [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: children D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\7e8d1ed74cc180c47f5a0a25fad584a3.php 第 79 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\7e8d1ed74cc180c47f5a0a25fad584a3.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-10-28T20:10:30+08:00 ] 127.0.0.1 /index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: select count(*) has from shop0926_auth where  module_name="Back" and controller_name = "Goods" and action_name = "showlist"  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `shop0926_goods` [ RunTime:0.0541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop0926_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop0926_goods` ORDER BY goods_id asc LIMIT 0,2   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\GoodsController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: goods_big_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 90 行.
+NOTIC: [8] Undefined index: goods_small_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 91 行.
+NOTIC: [8] Undefined index: goods_price D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 92 行.
+NOTIC: [8] Undefined index: goods_num D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 93 行.
+NOTIC: [8] Undefined index: is_sale D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 95 行.
+NOTIC: [8] Use of undefined constant 下架 - assumed '下架' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 95 行.
+NOTIC: [8] Use of undefined constant 未删除 - assumed '未删除' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 96 行.
+NOTIC: [8] Undefined index: goods_add_time D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 97 行.
+NOTIC: [8] Undefined index: goods_big_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 90 行.
+NOTIC: [8] Undefined index: goods_small_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 91 行.
+NOTIC: [8] Undefined index: goods_price D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 92 行.
+NOTIC: [8] Undefined index: goods_num D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 93 行.
+NOTIC: [8] Undefined index: is_sale D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 95 行.
+NOTIC: [8] Use of undefined constant 下架 - assumed '下架' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 95 行.
+NOTIC: [8] Use of undefined constant 未删除 - assumed '未删除' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 96 行.
+NOTIC: [8] Undefined index: goods_add_time D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\117a00a08ba9cd8d25e088ade947e6a0.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004133s ]
+
+[ 2018-10-28T20:10:41+08:00 ] 127.0.0.1 /index.php/Back/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: select count(*) has from shop0926_auth where  module_name="Back" and controller_name = "Goods" and action_name = "add"  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003097s ]
+
+[ 2018-10-28T20:11:03+08:00 ] 127.0.0.1 /index.php/Back/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+SQL: select count(*) has from shop0926_auth where  module_name="Back" and controller_name = "Goods" and action_name = "add"  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop0926_goods` [ RunTime:0.0215s ]
+SQL: INSERT INTO `shop0926_goods` (`goods_name`) VALUES ('华为') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2018-10-28T20:11:05+08:00 ] 127.0.0.1 /index.php/Back/Goods/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: select count(*) has from shop0926_auth where  module_name="Back" and controller_name = "Goods" and action_name = "showList"  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop0926_goods` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop0926_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop0926_goods` ORDER BY goods_id asc LIMIT 0,2   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\www.shop0926.com\Application\Back\Controller\GoodsController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: goods_big_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 90 行.
+NOTIC: [8] Undefined index: goods_small_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 91 行.
+NOTIC: [8] Undefined index: goods_price D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 92 行.
+NOTIC: [8] Undefined index: goods_num D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 93 行.
+NOTIC: [8] Undefined index: is_sale D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 95 行.
+NOTIC: [8] Use of undefined constant 下架 - assumed '下架' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 95 行.
+NOTIC: [8] Use of undefined constant 未删除 - assumed '未删除' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 96 行.
+NOTIC: [8] Undefined index: goods_add_time D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 97 行.
+NOTIC: [8] Undefined index: goods_big_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 90 行.
+NOTIC: [8] Undefined index: goods_small_logo D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 91 行.
+NOTIC: [8] Undefined index: goods_price D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 92 行.
+NOTIC: [8] Undefined index: goods_num D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 93 行.
+NOTIC: [8] Undefined index: is_sale D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 95 行.
+NOTIC: [8] Use of undefined constant 下架 - assumed '下架' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 95 行.
+NOTIC: [8] Use of undefined constant 未删除 - assumed '未删除' D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 96 行.
+NOTIC: [8] Undefined index: goods_add_time D:\phpStudy\WWW\www.shop0926.com\Application\Runtime\Cache\Back\34455927591556e07a05a1b00b8762b9.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2018-10-28T20:12:31+08:00 ] 127.0.0.1 /index.php/Back/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+
+[ 2018-10-28T20:12:31+08:00 ] 127.0.0.1 /index.php/Back/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2018-10-28T20:12:31+08:00 ] 127.0.0.1 /index.php/Back/Login/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003213s ]
+

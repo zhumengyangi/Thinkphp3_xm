@@ -1,0 +1,10 @@
+[ 2018-10-08T20:16:12+08:00 ] 127.0.0.1 /Uploads//Goods/2018-10-08/5bbb0a7621610.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2018-10-08T20:16:12+08:00 ] 127.0.0.1 /Uploads//Goods/2018-10-08/thumb_5bbb0a7621610.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+

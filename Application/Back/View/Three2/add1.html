@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<table>
+		<th>
+			<select name="category" id="sheng">
+				<option value="">-请选择省级分类-</option>
+				<volist name="list" id="v">
+					<option value="{$v.area_id}">{$v.area_name}</option>
+				</volist>
+			</select>
+			<select name="statuss" id="shi">
+				<option value="">-请选择市级分类-</option>
+			</select>
+			<select name="status" id="xian">
+				<option value="">-请选择县级分类-</option>
+			</select>
+		</th>
+	</table>
+</body>
+</html>
+<script src="{$Think.config.BACK_JS_URL}jq.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e){
+
+		$('#sheng').change(function(){
+			sheng();
+		})
+
+		$('#shi').change(function(){
+			shi();
+		})
+
+		function sheng(){
+			var sheng=$('#sheng').val();
+			$.ajax({
+				url:'{:U("Three/ajaxArea")}',
+				data:{data:sheng,num:1},
+				type:'post',
+				dataType:'html',
+				success:function(data){
+					$('#shi').html(data);
+				}
+			})
+		}
+
+		function shi(){
+			var shi=$('#shi').val();
+			$.ajax({
+				url:'{:U("Three/ajaxArea")}',
+				data:{data:shi,num:1},
+				type:'post',
+				dataType:'html',
+				success:function(data){
+					$('#xian').html(data);
+				}
+			})
+		}
+
+	})
+</script>

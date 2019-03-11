@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<a href="__CONTROLLER__/add1">添加规则</a><br>
+	<a href="__CONTROLLER__/showlist">查看分类</a><br>
+	<a href="__CONTROLLER__/showlist1">查看规则</a><br><br>
+
+	<form action="__SELF__" method="post">
+		<input type="hidden" name="id" value="{$info['id']}" />
+		分类名：	<input type="text" name="fenlei" value="{$info['fenlei']}"><br>
+				<input type="submit" name="添加">
+	</form>
+
+</body>
+</html>

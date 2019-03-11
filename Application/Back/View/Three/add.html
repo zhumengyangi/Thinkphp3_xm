@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<table>
+        <thead>
+        	<th>
+	            <select name="category" id="sheng">
+	                <option value="">-选择省级分类-</option>
+	                <volist name="list" id="v" >
+	                    <option value="{$v.area_id }">{$v.area_name}</option>
+	                </volist>
+	            </select>
+	            <select name="statuss" id="shi">	
+	                <option value="">-选择市级分类-</option>
+	            </select>
+	            <select name="status" id="xian">
+	                <option value="">-选择县级分类-</option>
+	            </select>
+        	</th>
+        </thead>
+    </table>
+</body>
+</html>
+<script src="{$Think.config.BACK_JS_URL}jq.js"></script>
+<script>
+    $(document).ready(function(e){
+        //点击省，下面的市显示
+        $('#sheng').change(function(){
+            sheng();
+        })
+        //点击市，下面的县显示
+        $('#shi').change(function(){
+            //alert(123);
+            shi();
+        })
+
+        function sheng(){
+            var sheng=$('#sheng').val();
+            //alert(sheng);
+            $.ajax({
+                url:'{:U("Three/ajaxArea")}',
+                data:{data:sheng,num:1},
+                type:'post',
+                dataType:'html',
+                success:function(data){
+                    $('#shi').html(data);
+                }
+            })
+        }
+
+        function shi(){
+            var shi=$('#shi').val();
+            //alert(shi);
+            $.ajax({
+                url:'{:U("Three/ajaxArea")}',
+                data:{data:shi},
+                type:'post',
+                dataType:'html',
+                success:function(data){
+                    $('#xian').html(data);
+                }
+            })
+        }
+        
+    })
+</script>

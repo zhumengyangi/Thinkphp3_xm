@@ -1,0 +1,114 @@
+[ 2018-10-19T08:35:33+08:00 ] 127.0.0.1 /Application/Back/Public/js/jquery-2.1.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T08:35:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-10-19T08:35:57+08:00 ] 127.0.0.1 /Application/Back/Public/js/jquery-2.1.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T08:49:33+08:00 ] 127.0.0.1 /Application/Back/Public/js/jquery-2.1.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:20:21+08:00 ] 127.0.0.1 /Application/Back/Public/js/jquery-2.1.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:20:35+08:00 ] 127.0.0.1 /Application/Back/Public/css/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:20:35+08:00 ] 127.0.0.1 /Application/Back/Public/css/title_bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:20:35+08:00 ] 127.0.0.1 /Application/Back/Public/css/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:20:36+08:00 ] 127.0.0.1 /Application/Back/Public/css/BACK.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:21:05+08:00 ] 127.0.0.1 /Application/Back/Public/css/BACK.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:21:21+08:00 ] 127.0.0.1 /Application/Back/Public/css/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:21:21+08:00 ] 127.0.0.1 /Application/Back/Public/css/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:21:21+08:00 ] 127.0.0.1 /Application/Back/Public/css/title_bg2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:23:01+08:00 ] 127.0.0.1 /Application/Back/Public/css/BACK.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:23:01+08:00 ] 127.0.0.1 /Application/Back/Public/css/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T09:23:01+08:00 ] 127.0.0.1 /Application/Back/Public/css/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T14:26:02+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-10-19T18:31:25+08:00 ] 127.0.0.1 /Application/Back/Public/js/jquery-2.1.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Application
+
+[ 2018-10-19T18:31:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Favicon
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>修改管理员</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="{$Think.config.BACK_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+           
+    </head>
+    <body>
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：管理员管理-》修改管理员信息</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U('showlist')}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action="__SELF__" method="post" >
+                <input type="hidden" name="admin_id" value="{$info.admin_id}" />
+                <table border="1" width="100%" class="table_a">
+                    <tr>
+                        <td>管理员名称</td>
+                        <td><input type="text" name="admin_name" value="{$info.admin_name}"/></td>
+                    </tr>
+                    <tr>
+                        <td>管理员密码</td>
+                        <td><input type="text" name="admin_pwd" />不填代表不修改密码</td>
+                    </tr>
+                    <tr>
+                        <td>确认管理员密码</td>
+                        <td><input type="text" name="admin_pwd2" /></td>
+                    </tr>
+                <?php if($info['admin_id']>1): ?>
+                    <tr>
+                        <td>是否启用</td>
+                        <td>
+                            <input  type="radio" name="is_use" 
+                            <?php echo $info['is_use'] == 1?"checked='checked'":'';?>
+                            value='1'/>启用
+                            <input type="radio" name="is_use"
+                            <?php echo $info['is_use'] == 0?"checked='checked'":'';?>
+                             value='0'/>禁用
+                        </td>
+                    </tr>
+                <?php endif;?>
+                    <tr>
+                        <td>所在角色</td>
+                        <td>
+                            <?php foreach ($roles as $k => $v):
+                            // $v['role_id']为int,先转化为string，然后再查找
+                            // var_dump(strpos(','.$cur_rids.',', ','.$v['role_id'].','),','.$cur_rids.',',','.$v['role_id'].',');
+
+                                if(strpos(','.$cur_rids.',', ','.$v['role_id'].',') ===false){
+                                    $checked = '';
+                                }else{
+                                    $checked = 'checked=checked';
+                                }
+
+                            ?>
+                                <input {$checked} type="checkbox" name='role_id[]' value="{$v.role_id}"/>{$v.role_name}<br/>
+                            <?php endforeach;?>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="添加" />
+                        </td>
+                    </tr>  
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
